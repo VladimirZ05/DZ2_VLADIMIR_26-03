@@ -1,15 +1,15 @@
 var StarBucks = {
     coffee: {
-        latte: 'Latte Coffee',
-        cappuccino: 'Cappuccino Coffe',
-        mokiato: 'Mokiato Coffee',
-        espresso: 'Espresso Coffee'
+        Latte: 'Latte Coffee',
+        Cappuccino: 'Cappuccino Coffee',
+        Mokiato: 'Mokiato Coffee',
+        Espresso: 'Espresso Coffee'
     },
     tea: {
-        black: 'Black Tea',
-        green: 'Green Tea',
-        herbal: 'Herbal Tea',
-        fruit: 'Fruit Tea',
+        Black: 'Black Tea',
+        Green: 'Green Tea',
+        Herbal: 'Herbal Tea',
+        Fruit: 'Fruit Tea',
     }
 }
 console.log(StarBucks)
@@ -26,10 +26,10 @@ console.log(StarBucks.tea.herbal)
 console.log(StarBucks.tea.fruit)
 
 var Order = prompt('Enter your order')
-if (Order === 'latte' || Order === 'cappuccino' || Order === 'mokiato' || Order === 'espresso'){
+if (Order === 'Latte' || Order === 'Cappuccino' || Order === 'Mokiato' || Order === 'Espresso'){
     console.log('Your Coffee order was successfully done, please wait till it ready.')
 }
-else if (Order === 'black' || Order === 'green' || Order === 'herbal' || Order === 'fruit'){
+else if (Order === 'Black tea' || Order === 'Green tea' || Order === 'Herbal tea' || Order === 'Fruit tea'){
     console.log('Your Tea order was successfully done, please wait till it ready.')
 }
 else
